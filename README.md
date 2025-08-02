@@ -1,2 +1,2 @@
-# Haresh-Portfolio
+# My Portfolio
 Haresh Portfolio
