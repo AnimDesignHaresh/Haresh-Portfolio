@@ -1,66 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Testimonials</title>
-    <style>
- /* CSS for the border design */
-  .bordered-box {
-    border-width: 5px; /* Sets the thickness of the border */
-    border-style: solid; /* Sets the style of the border (e.g., solid, dotted, dashed, double) */
-    border-color: #3498db; /* Sets the color of the border using a hex code */
-    padding: 20px; /* Adds space between the content and the border */
-    margin: 30px; /* Adds space outside the border */
-    border-radius: 10px; /* Rounds the corners of the border */
-    background-color: #ecf0f1; /* Sets a background color for the box */
-    text-align: center; /* Centers the text within the box */
-    font-family: Arial, sans-serif;
-  }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        .menu {
-            margin-bottom: 30px;
-        }
-        .menu h2 {
-            margin-bottom: 10px;
-        }
-        .menu ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .menu ul li {
-            margin: 5px 0;
-        }
-        .menu ul li a {
-            text-decoration: none;
-            color: blue;
-        }
-        .menu ul li a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .testimonials-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .testimonial {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .testimonial:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonial p {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .testimonial .name {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .testimonial .title {
+      font-size: 14px;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .testimonials-container {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Work In Progress...</h1>
+  <div class="header">
+    <h1>My Testimonials</h1>
+    <p>This page is work in progress...</p>
+  </div>
 
-    <div class="menu">
-        <h2>My Work</h2>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Characters.html">My Portfolio</a></li>
-        </ul>
+  <div class="testimonials-container">
+    <div class="testimonial">
+      <p>"The team was professional and exceeded my expectations. Highly recommended!"</p>
+      <div class="name">– Sarah Johnson</div>
+      <div class="title">CEO, BrightTech</div>
     </div>
 
-    <div class="menu">
-        <h2>About Me</h2>
-        <ul>
-            <li><a href="Testimonials.html">Testimonials</a></li>
-            <li><a href="Contact_Info.html">My Contact Information</a></li>
-        </ul>
+    <div class="testimonial">
+      <p>"Great service, excellent communication, and a fantastic final product."</p>
+      <div class="name">– David Kim</div>
+      <div class="title">Marketing Director, FreshStart</div>
     </div>
+
+    <div class="testimonial">
+      <p>"Very reliable and creative. We’ve seen a big improvement since working with them."</p>
+      <div class="name">– Maria Lopez</div>
+      <div class="title">Co-founder, GreenHub</div>
+    </div>
+
+    <div class="testimonial">
+      <p>"They delivered on time and were a pleasure to work with. Would hire again."</p>
+      <div class="name">– John Matthews</div>
+      <div class="title">Freelance Consultant</div>
+    </div>
+  </div>
 
 </body>
 </html>
