@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Border Design Example</title>
-<style>
-  /* CSS for the border design */
+    <meta charset="UTF-8">
+  <title>Border Design Example</title>
+    <style>
+ /* CSS for the border design */
   .bordered-box {
     border-width: 5px; /* Sets the thickness of the border */
     border-style: solid; /* Sets the style of the border (e.g., solid, dotted, dashed, double) */
@@ -15,11 +16,51 @@
     text-align: center; /* Centers the text within the box */
     font-family: Arial, sans-serif;
   }
-</style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .menu {
+            margin-bottom: 30px;
+        }
+        .menu h2 {
+            margin-bottom: 10px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 5px 0;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+        .menu ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
- 
+    <h1>Welcome to the Portal</h1>
+
+    <div class="menu">
+        <h2>My Work</h2>
+        <ul>
+            <li><a href="Home.html">Page 1</a></li>
+            <li><a href="Characters.html">Page 2</a></li>
+        </ul>
+    </div>
+
+    <div class="menu">
+        <h2>About Me</h2>
+        <ul>
+            <li><a href="Testimonials.html">Page 3</a></li>
+            <li><a href="Contact_Info.html">Page 4</a></li>
+        </ul>
+    </div>
 <a href="Characters.html">List of Characters designed</a>
 </body>
 </html>
