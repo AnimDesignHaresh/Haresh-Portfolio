@@ -1,66 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-  <title>Border Design Example</title>
-    <style>
- /* CSS for the border design */
-  .bordered-box {
-    border-width: 5px; /* Sets the thickness of the border */
-    border-style: solid; /* Sets the style of the border (e.g., solid, dotted, dashed, double) */
-    border-color: #3498db; /* Sets the color of the border using a hex code */
-    padding: 20px; /* Adds space between the content and the border */
-    margin: 30px; /* Adds space outside the border */
-    border-radius: 10px; /* Rounds the corners of the border */
-    background-color: #ecf0f1; /* Sets a background color for the box */
-    text-align: center; /* Centers the text within the box */
-    font-family: Arial, sans-serif;
-  }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        .menu {
-            margin-bottom: 30px;
-        }
-        .menu h2 {
-            margin-bottom: 10px;
-        }
-        .menu ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .menu ul li {
-            margin: 5px 0;
-        }
-        .menu ul li a {
-            text-decoration: none;
-            color: blue;
-        }
-        .menu ul li a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haresh Portfolio Pages</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar Container */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Links inside the navbar */
+    .navbar a, .dropdown-btn {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    /* Dropdown container */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      float: none;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    /* Hover effects */
+    .navbar a:hover,
+    .dropdown:hover .dropdown-btn,
+    .dropdown-content a:hover {
+      background-color: #575757;
+    }
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Page content */
+    .content {
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Welcome to the Portal</h1>
-
-    <div class="menu">
-        <h2>My Work</h2>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Characters.html">My Portfolio</a></li>
-        </ul>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    
+    <div class="dropdown">
+      <button class="dropdown-btn">About</button>
+      <div class="dropdown-content">
+        <a href="Index.html">Home</a>
+        <a href="Characters.html">My Portfolio</a>
+      </div>
     </div>
 
-    <div class="menu">
-        <h2>About Me</h2>
-        <ul>
-            <li><a href="Testimonials.html">Testimonials</a></li>
-            <li><a href="Contact_Info.html">My Contact Information</a></li>
-        </ul>
+    <div class="dropdown">
+      <button class="dropdown-btn">Services</button>
+      <div class="dropdown-content">
+         <a href="Testimonials.html">Testimonials</a>
+         <a href="Contact_Info.html">My Contact Information</a>
+      </div>
     </div>
+
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="content">
+    <h1>Welcome to My Website</h1>
+    <p>This page is work in progress. Please wait.</p>
+  </div>
 
 </body>
-</html>
