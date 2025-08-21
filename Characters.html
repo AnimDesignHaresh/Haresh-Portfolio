@@ -11,7 +11,26 @@ body {
   margin: 0;
   font-family: Arial;
 }
-
+ .menu {
+            margin-bottom: 30px;
+        }
+        .menu h2 {
+            margin-bottom: 10px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 5px 0;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+        .menu ul li a:hover {
+            text-decoration: underline;
+        }
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
@@ -90,7 +109,21 @@ body {
   <img id="expandedImg" style="width:100%">
   <div id="imgtext"></div>
 </div>
+<div class="menu">
+        <h2>Menu 1</h2>
+        <ul>
+            <li><a href="page1.html">Page 1</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+        </ul>
+    </div>
 
+    <div class="menu">
+        <h2>Menu 2</h2>
+        <ul>
+            <li><a href="page3.html">Page 3</a></li>
+            <li><a href="page4.html">Page 4</a></li>
+        </ul>
+    </div>
 <script>
 function myFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
