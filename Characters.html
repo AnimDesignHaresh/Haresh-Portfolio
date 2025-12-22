@@ -1,303 +1,135 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Characters | Strategic Design Portfolio</title>
-    <style>
-        /* Professional Minimalist Theme */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            background-color: #f4f7f6;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Characters | Strategic Design Portfolio</title>
+  <style>
+    /* Professional Minimalist Theme */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f7f6;
+      color: #333;
+    }
 
-        /* Navigation Bar */
-        nav {
-            background-color: #2c3e50;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    /* Navigation Bar */
+    nav {
+      background-color: #2c3e50;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-        nav .logo {
-            color: white;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
+    nav .logo {
+      color: white;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
 
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
 
-        nav ul li {
-            margin-left: 20px;
-        }
+    nav ul li {
+      margin-left: 20px;
+    }
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
 
-        nav ul li a:hover {
-            color: #1abc9c;
-        }
+    nav ul li a:hover {
+      color: #1abc9c;
+    }
 
-        /* Content Area */
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            text-align: center;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
+    /* Content Area */
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
 
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
 
-        p {
-            color: #666;
-            margin-bottom: 30px;
-        }
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
 
-        /* Button Grid */
-        .button-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            padding: 20px;
-        }
+    /* Button Grid */
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
 
-        .char-btn {
-            background-color: #1abc9c;
-            color: white;
-            border: none;
-            padding: 15px 20px;
-            font-size: 1rem;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: transform 0.2s, background-color 0.3s;
-        }
+    .char-btn {
+      background-color: #1abc9c;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
 
-        .char-btn:hover {
-            background-color: #16a085;
-            transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
+    .char-btn:hover {
+      background-color: #16a085;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
 
-        /* Footer */
-        footer {
-            margin-top: 50px;
-            font-size: 0.8rem;
-            color: #999;
-        }
-    </style>
+    /* Footer */
+    footer {
+      margin-top: 50px;
+      font-size: 0.8rem;
+      color: #999;
+    }
+  </style>
 </head>
 <body>
+  <nav>
+    <div class="logo">Portfolio.</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Characters.html">My Characters</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
 
-    <nav>
-        <div class="logo">Portfolio.</div>
-        <ul>
-            <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Characters | Strategic Design Portfolio</title>
-    <style>
-        /* Professional Minimalist Theme */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            background-color: #f4f7f6;
-            color: #333;
-        }
+  <div class="container">
+    <h1>My Characters</h1>
+    <p>Explore the strategic design and narrative development of my featured characters.</p>
 
-        /* Navigation Bar */
-        nav {
-            background-color: #2c3e50;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav .logo {
-            color: white;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-left: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #1abc9c;
-        }
-
-        /* Content Area */
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            text-align: center;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-
-        p {
-            color: #666;
-            margin-bottom: 30px;
-        }
-
-        /* Button Grid */
-        .button-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            padding: 20px;
-        }
-
-        .char-btn {
-            background-color: #1abc9c;
-            color: white;
-            border: none;
-            padding: 15px 20px;
-            font-size: 1rem;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: transform 0.2s, background-color 0.3s;
-        }
-
-        .char-btn:hover {
-            background-color: #16a085;
-            transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 50px;
-            font-size: 0.8rem;
-            color: #999;
-        }
-    </style>
-</head>
-<body>
-
-    <nav>
-        <div class="logo">Portfolio.</div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="characters.html">My Characters</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-
-
-
-
-    <div class="container">
-        <h1>My Characters</h1>
-        <p>Explore the strategic design and narrative development of my featured characters.</p>
-        
-        <div class="button-grid">
-            <button class="char-btn" onclick="window.location.href='Avatars.html'">Avatars</button>
-            <button class="char-btn" onclick="window.location.href='AI Scenes.html'">AI Scenes</button>
-            <button class="char-btn" onclick="window.location.href='Accessories.html'">Accessories</button>
-            <button class="char-btn" onclick="window.location.href='Anime designs.html'">AI Animations</button>
-            <button class="char-btn" onclick="window.location.href='GameUIs.html'">Game App Pages</button>
-        </div>
-
-        <footer>
-            &copy; 2026 | Haresh Designs | Please do not copy
-        </footer>
+    <div class="button-grid">
+      <button type="button" class="char-btn" onclick="window.location.href='Avatars.html'">Avatars</button>
+      <button type="button" class="char-btn" onclick="window.location.href='AI Scenes.html'">AI Scenes</button>
+      <button type="button" class="char-btn" onclick="window.location.href='Accessories.html'">Accessories</button>
+      <button type="button" class="char-btn" onclick="window.location.href='Anime designs.html'">AI Animations</button>
+      <button type="button" class="char-btn" onclick="window.location.href='GameUIs.html'">Game App Pages</button>
     </div>
 
-</body>
-</html>
-            <li><a href="characters.html">My Characters</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-
-
-
-
-    <div class="container">
-        <h1>My Characters</h1>
-        <p>Explore the strategic design and narrative development of my featured characters.</p>
-        
-        <div class="button-grid">
-            <button class="char-btn" onclick="window.location.href='Avatars.html'">Avatars</button>
-            <button class="char-btn" onclick="window.location.href='AI Scenes.html'">AI Scenes</button>
-            <button class="char-btn" onclick="window.location.href='Accessories.html'">Accessories</button>
-            <button class="char-btn" onclick="window.location.href='Anime designs.html'">AI Animations</button>
-            <button class="char-btn" onclick="window.location.href='GameUIs.html'">Game App Pages</button>
-        </div>
-
-        <footer>
-            &copy; 2026 | Haresh Designs | Please do not copy
-        </footer>
-    </div>
-
-</body>
-</html>
-
-  <div class="navbar">
-    <a href="#home">Home</a>
-    
-    <div class="dropdown">
-      <button class="dropdown-btn">Services</button>
-      <div class="dropdown-content">
-         <a href="#designwork">About Me</a> 
-        <a href="#designwork">Graphic Design</a>
-         <a href="#review">Web Content Review</a>
-         <a href="#suggestions">Ad and Poster Design</a>
-      </div>
-   
+    <footer>
+      &copy; 2026 | Haresh Designs | Please do not copy.
+    </footer>
   </div>
-
-    <div class="dropdown">
-      <button class="dropdown-btn">About Me</button>
-      
-      <div class="dropdown-content">        
-        <a href="Characters.html">My Portfolio</a>
-        <a href="Testimonials.html">Testimonials</a>
-        <a href="#contact">Contact Me</a>
-      </div>
-    </div>
-    </div>
-  
+</body>
+</html>
