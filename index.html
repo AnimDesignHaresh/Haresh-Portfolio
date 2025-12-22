@@ -4,74 +4,108 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Haresh Portfolio Pages</title>
-  <style>
+ <style>
+    /* Professional Minimalist Theme */
     body {
-      margin: 1;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f7f6;
+      color: #333;
     }
 
-    /* Navigation Bar Container */
-    .navbar {
-      overflow: hidden;
-      
+    /* Navigation Bar */
+    nav {
+      background-color: #2c3e50;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    /* Links inside the navbar */
-    .navbar a, .dropdown-btn {
-      float: left;
-      font-size: 16px;
-      color: #575757;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-      border: none;
-      background: none;
-      cursor: pointer;
-    }
-
-    /* Dropdown container */
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #6699CC;
-      min-width: 160px;
-      z-index: 1;
-    }
-
-    /* Links inside the dropdown */
-    .dropdown-content a {
-      float: none;
+    nav .logo {
       color: white;
-      padding: 12px 16px;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
       text-decoration: none;
-      display: block;
-      text-align: left;
+      font-weight: 500;
+      transition: color 0.3s;
     }
 
-    /* Hover effects */
-    .navbar a:hover,
-    .dropdown:hover .dropdown-btn,
-    .dropdown-content a:hover {
-      background-color: #575757;
+    nav ul li a:hover {
+      color: #1abc9c;
     }
 
-    /* Show dropdown on hover */
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    /* Page content */
-    .content {
+    /* Content Area */
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
       padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    /* Button Grid */
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .char-btn {
+      background-color: #1abc9c;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .char-btn:hover {
+      background-color: #16a085;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 50px;
+      font-size: 0.8rem;
+      color: #999;
     }
   </style>
 </head>
+
 <body>
 
   <div class="navbar">
@@ -89,17 +123,9 @@
   </div>
 
     <div class="dropdown">
-      <button class="dropdown-btn">About Me</button>
+      <button class="dropdown-btn">About Me</button>   
       
-      
-    <div class="logo">Portfolio by Haresh</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Characters.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  
-    </div>
+ 
     </div>
   
    <div class="content">
@@ -126,3 +152,30 @@ You may want to show more focus on a particular product image such as place a pr
   
  
 </body>
+</html>
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    
+    <div class="dropdown">
+      <button class="dropdown-btn">Services</button>
+      <div class="dropdown-content">
+         <a href="#designwork">About Me</a> 
+        <a href="#designwork">Graphic Design</a>
+         <a href="#review">Web Content Review</a>
+         <a href="#suggestions">Ad and Poster Design</a>
+      </div>
+   
+  </div>
+
+    <div class="dropdown">
+      <button class="dropdown-btn">About Me</button>
+      
+      <div class="dropdown-content">        
+        <a href="Characters.html">My Portfolio</a>
+        <a href="Testimonials.html">Testimonials</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </div>
+    </div>
+  
