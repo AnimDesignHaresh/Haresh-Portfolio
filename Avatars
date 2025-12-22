@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Portfolio</title>
+<title>My Portfolio - Avatar Designs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
@@ -93,22 +93,7 @@ body {
 <div class="row">
   <div class="column">
     <img src="image1.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="image2.png" alt="Scenes" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="image3.png" alt="Accessories" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="image4.png" alt="Animation" style="width:100%" onclick="myFunction(this);">
-  </div>
-   <div class="column">
-    <img src="image5.png" alt="AI Animation" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="image6.png" alt="AI Scenes" style="width:100%" onclick="myFunction(this);">
-  </div>
+  </div> 
 
 </div>
 
