@@ -85,9 +85,16 @@ body {
 <body>
 
 <div style="text-align:center">
-  <h2>Avatars</h2>
+  <h2>Characters</h2>
   <p>Click on the images below:</p>
- <img src="/images/avatar.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="characters.png" alt="Avatars" style="width:100%" onclick="myFunction(this);">
+  </div>
+ 
 </div>
 
 <div class="container">
@@ -105,5 +112,6 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 </script>
+
 </body>
 </html>
