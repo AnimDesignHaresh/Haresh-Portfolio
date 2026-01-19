@@ -87,7 +87,7 @@ body {
 <div style="text-align:center">
   <h2>Avatars</h2>
   <p>Click on the images below:</p>
- <img src="image1.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
+ <img src="images/avatar.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
 </div>
 
 <div class="container">
