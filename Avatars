@@ -87,14 +87,7 @@ body {
 <div style="text-align:center">
   <h2>Avatars</h2>
   <p>Click on the images below:</p>
-</div>
-
-<!-- The four columns -->
-<div class="row">
-  <div class="column">
-    <img src="image1.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
-  </div> 
-
+ <img src="image1.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
 </div>
 
 <div class="container">
