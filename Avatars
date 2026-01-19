@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Avatar Designs</title>
+<title>Avatars</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
@@ -87,7 +87,7 @@ body {
 <div style="text-align:center">
   <h2>Avatars</h2>
   <p>Click on the images below:</p>
- <img src="images/avatar.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
+ <img src="/images/avatar.png" alt="Characters" style="width:100%" onclick="myFunction(this);">
 </div>
 
 <div class="container">
