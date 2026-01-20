@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Anime Designs</title>
+<title>Accessories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
@@ -85,14 +85,14 @@ body {
 <body>
 
 <div style="text-align:center">
-  <h2>Avatars</h2>
+  <h2>Accessories</h2>
   <p>Click on the images below:</p>
 </div>
 
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="/images/anime.png" alt="Accessories" style="width:100%" onclick="myFunction(this);">
+    <img src="/images/accessories.png" alt="Accessories" style="width:100%" onclick="myFunction(this);">
   </div>
 
 </div>
