@@ -92,7 +92,7 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="images/avatar.png" alt="Avatars" style="width:100%" onclick="myFunction(this);">
+        <img src="/images/avatar.png" alt="Avatars" onclick="myFunction(this);">
   </div>
  
 </div>
