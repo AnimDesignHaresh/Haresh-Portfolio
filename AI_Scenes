@@ -93,7 +93,7 @@ body {
 <div class="row">
 
    <div class="column">
-    <img src="image5.png" alt="AI Animation" style="width:100%" onclick="myFunction(this);">
+    <img src="/images/image5.png" alt="AI Animation" style="width:100%" onclick="myFunction(this);">
   </div>
 
 
