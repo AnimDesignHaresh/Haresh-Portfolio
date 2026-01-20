@@ -94,7 +94,7 @@ body {
 <div class="row">
 
    <div class="column">
-    <img src="images/ui_images.png" alt="AI-generated Story Board"  onclick="myFunction(this);">
+    <img src="images/scenes.png" alt="AI-generated Story Board"  onclick="myFunction(this);">
   </div>
 
 
