@@ -85,7 +85,7 @@ body {
 <body>
 
 <div style="text-align:center">
-  <h2>Avatars</h2>
+  <h2>AI Animation</h2>
   <p>Click on the images below:</p>
 </div>
 
@@ -93,7 +93,7 @@ body {
 <div class="row">
 
    <div class="column">
-    <img src="/images/image5.png" alt="AI Animation" style="width:100%" onclick="myFunction(this);">
+    <img src="/images/ui_images.png" alt="AI-generated Story Board" style="width:100%" onclick="myFunction(this);">
   </div>
 
 
